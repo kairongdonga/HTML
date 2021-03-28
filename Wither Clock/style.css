@@ -38,9 +38,9 @@ body
       z-index: 1000000;
       border-radius: 50%;
 }
-.hour
-.min
-.sec
+.clock .hour,
+.clock .min,
+.clock .sec
 {
       position: absolute;
 }
