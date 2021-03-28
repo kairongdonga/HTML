@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main {
+	min-height: 100vh;
+	background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.glass {
+	background: white;
+	min-height: 90vh;
+	width: 70%;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3));
+	border-radius: 4rem;
+}
+
+.glass,
+.p {
+	text-align: center;
+	font-size: 30px;
+	padding: 25px;
+}
+img {
+	width: 100%;
+	border-radius: 4rem;
+	padding: 20px;
+}
