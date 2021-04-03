@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 1000px;
+}
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline li {
+    line-height: normal;
+    position: relative;
+    width: 50px;
+    padding: 20px 40px;
+}
