@@ -1,0 +1,48 @@
+body{
+    color: #f6dfeb;
+}
+div {
+    position: relative;
+    background-color: #;
+    width: 600px;
+    height: 400px;
+    margin: 5vmin auto 15vmin;
+    background: #ffcc00;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px #e6b800;
+  }
+.g-slide {
+    background: #39d085;
+    box-shadow: 0 0 5px 2px #27a566;
+  }
+.g-slide::before {
+    content: "";
+    position: absolute;
+    top: 15%;
+    bottom: 20%;
+    left: 90%;
+    right: 5%;
+    border-radius: 10px;
+    background: #135333;
+    transform: translate(105%, 10%) rotate(15deg);
+    transform-origin: center center;
+    box-shadow: 0 0 10px 7px #135333;
+    z-index: -1;
+  }
+  
+  .g-slide::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    bottom: 20%;
+    left: 5%;
+    right: 90%;
+    border-radius: 20px;
+    background: #135333;
+    transform: translate(-105%, 10%) rotate(-15deg);
+    transform-origin: center center;
+    box-shadow: 0 0 10px 7px #135333;
+    z-index: -1;
+  }
+  
+  
